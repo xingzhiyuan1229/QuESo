@@ -17,6 +17,10 @@ QuESo is written in C++ and has a user-friendly Python interface. If you want to
 
 ![](https://github.com/manuelmessmer/QuESo/blob/main/docs/input_output.png) 
 
+## Theory / Mathematical Background
+
+* [高斯散度定理及其在 QuESo 中的应用（中文）](docs/gauss_divergence_theorem_zh.md) — 以简体中文介绍高斯散度定理的数学表述、几何直觉、解析算例，以及 QuESo 如何利用该定理将体积分转化为面积分来高效计算嵌入式固体的矩拟合积分。
+
 ## Special Thanks To
 * Lester Hedges for the [AABB tree](https://github.com/lohedges/aabbcc)
 * Mike Lapshin for the [NNLS solver](https://github.com/mlapshin/nnls)
